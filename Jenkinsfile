@@ -25,7 +25,7 @@ pipeline {
         }
 
         stage('Check status'){
-            echo 'Container run successfull'
+            echo 'Container part completed'
             sh 'docker ps'
         }
     }
